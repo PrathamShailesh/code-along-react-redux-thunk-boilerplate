@@ -1,0 +1,36 @@
+body{
+  text-align: center;
+  margin: 0;
+  background-color:rgb(212, 205, 205) ;
+
+}
+
+button:hover{
+  background-color: rgb(151, 228, 228);
+  cursor: pointer;
+}
+
+.fetch{
+  margin: 15px;
+
+}
+
+.box{
+  padding: 20px;
+  border-bottom: 1px black solid;
+  line-height: 2px;
+}
+
+.box:nth-child(even){
+  background-color: rgb(212, 205, 205);
+}
+.box:nth-child(odd){
+  background-color: rgb(192, 186, 186);
+}
+
+.clear{
+  padding: 10px;
+  background-color: black;
+  color: white;
+  margin: 15px;
+}
